@@ -2,18 +2,29 @@
   "name": "alab318.2.1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alenia24/ALAB318.2.1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Alenia24/ALAB318.2.1/issues"
+  },
+  "homepage": "https://github.com/Alenia24/ALAB318.2.1#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
   "devDependencies": {
     "nodemon": "^3.1.9"
-  },
-  "dependencies": {
-    "express": "^5.1.0"
   }
 }
